@@ -1,6 +1,6 @@
 const express = require('express');
 
-const livrosRouter = require('./src/routers/livros');
+const livrosRouter = require('./livros');
 
 const app = express();
 app.use('/livros', livrosRouter);
